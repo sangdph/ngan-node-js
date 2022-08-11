@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Sang yêu Ngân",
+  "main": "ngan.js",
+  "scripts": {
+    "start": "nodemon --inspect ngan.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangdph/ngan-node-js.git"
+  },
+  "keywords": [
+    "sang",
+    "ngan",
+    "nodejs"
+  ],
+  "author": "sangiungan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sangdph/ngan-node-js/issues"
+  },
+  "homepage": "https://github.com/sangdph/ngan-node-js#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
